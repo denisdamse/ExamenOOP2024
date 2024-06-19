@@ -39,11 +39,11 @@ public class Fabrica {
             System.out.println(c);
         }
     }
-    public void generareContract(Oferta o)
+    public static void generareContract(Oferta o)
     {
         acte.add(o);
     }
-    public boolean eliberareFluturas(FluturasSalariu f) throws AngajatConcediatException
+    public static boolean eliberareFluturas(FluturasSalariu f) throws AngajatConcediatException
     {
         for(Angajat a: angajati)
         {
